@@ -1,7 +1,7 @@
 new Promise(function(resolve, reject) 
 {
 
-    setTimeout(() => resolve(1), 1000);
+    setTimeout(() => resolve(6), 1);
   
 }).then(function(result) {  
                             console.log(result); // 1
